@@ -1,0 +1,20 @@
+.element2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3em;
+   
+    &__text {
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .element2 {
+        width: 100%;
+        flex-direction: column;
+    }
+}

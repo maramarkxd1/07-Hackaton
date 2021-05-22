@@ -1,0 +1,19 @@
+.element4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3642;
+    padding: 4em 4em;
+    &__child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .element4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

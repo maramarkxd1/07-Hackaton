@@ -1,0 +1,24 @@
+.element3 {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    background-color: #4a5869;
+    &__left {
+        padding: 0 6em;
+        .imgleft {
+            width: 300px;
+            height: 300px;
+        }
+    }
+    &__right {
+        padding: 0 2em;
+    }
+}
+
+@media (max-width: 700px) {
+    .element3 {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}

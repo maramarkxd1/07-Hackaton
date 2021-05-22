@@ -1,0 +1,15 @@
+@import './header';
+@import './main';
+@import './welcome';
+@import './creative';
+@import './bar';
+@import './amazing';
+
+.container {
+    min-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    display: block;
+    padding: 0 auto;
+}
